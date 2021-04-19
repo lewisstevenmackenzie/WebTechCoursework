@@ -40,7 +40,7 @@ body {
   display: inline-block;
   color: antiquewhite;
   font-family: monospace;
-  font-size:x-large;
+  font-size: x-large;
   margin: 0px;
 }
 
@@ -96,17 +96,16 @@ li:nth-child(n + 4) {
   color: whitesmoke;
 }
 
-
 .pageInfo {
   display: inline-flex;
   justify-content: center;
   font-family: Calibri;
   font-size: 25px;
   color: black;
-  background-color:blanchedalmond;
+  background-color: blanchedalmond;
   padding: 10px;
   width: 100%;
-  border: 3px solid black ;
+  border: 3px solid black;
 }
 
 .pageImage {
@@ -120,33 +119,31 @@ li:nth-child(n + 4) {
   text-align: center;
 }
 
-#scenarioDescription{
+#scenarioDescription {
   display: inline-flex;
   font-family: Verdana;
   color: white;
   background-color: rgb(146, 1, 1);
   padding: 10px;
   max-width: 80%;
-  border: 3px solid black ;
+  border: 3px solid black;
 }
 
 .button {
-  font-family:cursive;
+  font-family: cursive;
   padding: 20px;
   margin: 5px;
-  border: 2px solid black
-
-
+  border: 2px solid black;
 }
 
-.startPageInfo{
+.startPageInfo {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 
-.startPageImage{
+.startPageImage {
   margin-bottom: 15px;
   width: 90%;
   max-width: 500px;
