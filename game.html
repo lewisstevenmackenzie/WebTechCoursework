@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Heist or Hostage</title>
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+  </head>
+
+  <body>
+    <div class="scene">
+      <h class="heading">Heist or Hostage</h>
+
+      <ul>
+        <li><a href="../main.html">Home</a></li>
+        <li><a href="./start.html">Start</a></li>
+        <li><a href="./instructions.html">Instructions</a></li>
+        <li><a href="./aboutUs.html">About Us</a></li>
+        <li><img id="muteIcon" src="../images/notMute.png" /></li>
+      </ul>
+    </div>
+
+    <div class="gameTitle">
+      <h1>Game</h1>
+    </div>
+
+    <div class="gamePage">
+      <a onmouseover="audioFunction()">
+        <img
+          id="scenarioImage"
+          src=""
+          width="500"
+          height="300"
+          class="pageImage"
+        />
+      </a>
+
+      <br /><br />
+
+      <p id="scenarioDescription"></p>
+
+      <button class="button" id="scenarioButton1"></button>
+      <button class="button" id="scenarioButton2"></button>
+      <button class="button" id="previousPage">Back</button>
+      <button class="button" hidden="true" id="playAgain">Play Again.</button>
+      <br />
+    </div>
+
+    <script src="../main.js"></script>
+    <script src="./game.js"></script>
+  </body>
+</html>
