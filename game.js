@@ -1,7 +1,5 @@
 "use strict";
 
-var ttsmsg = new SpeechSynthesisUtterance();
-
 const ttsMuteIcon = document.getElementById("ttsMuteIcon");
 const muteIcon = document.getElementById("muteIcon");
 const scenarioImage = document.getElementById("scenarioImage");
@@ -13,6 +11,7 @@ const returnBTN = document.getElementById("previousPage");
 const muteBTN = document.getElementById("muteButton");
 var muteAudioEffects = false;
 var ttsMute = false;
+var ttsmsg = new SpeechSynthesisUtterance();
 
 var scenarios = [];
 var indexStack = [0];
