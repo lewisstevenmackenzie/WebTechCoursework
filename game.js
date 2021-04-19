@@ -1,4 +1,8 @@
 "use strict";
+
+var msg = new SpeechSynthesisUtterance();
+
+const ttsMuteIcon = document.getElementById("ttsMuteIcon");
 const muteIcon = document.getElementById("muteIcon");
 const scenarioImage = document.getElementById("scenarioImage");
 const scenarioDescription = document.getElementById("scenarioDescription");
@@ -7,7 +11,8 @@ const scenarioBTN2 = document.getElementById("scenarioButton2");
 const playAgainBTN = document.getElementById("playAgain");
 const returnBTN = document.getElementById("previousPage");
 const muteBTN = document.getElementById("muteButton");
-var isMuted = false;
+var muteAudioEffects = false;
+var ttsMute = false;
 
 var scenarios = [];
 var indexStack = [0];
@@ -19,10 +24,10 @@ function getName() {
   return prompt("PLZ enter your name: ");
 }
 
-function initialiseScenarios(name = "Alex") {
+function initialiseScenarios(name="Alex") {
   scenarios = [
     {
-      //scenario: 0
+      //scenario: 0 
       src: "images/bankImage.jpg",
       description: "Welcome to the Central Bank. What would you like to do?",
       children: [
@@ -108,7 +113,7 @@ function initialiseScenarios(name = "Alex") {
     {
       //scenario: 6
       src: "images/motorway.jpg",
-      description: "You make it to the exit. What's you next move?",
+      description: "You make it to the exit. What's your next move?",
       children: [
         {
           index: 11,
@@ -287,10 +292,19 @@ function initialiseScenarios(name = "Alex") {
     },
   ];
 }
-
+ttsMuteIcon.onclick = function (){
+  toggleTTSMute();
+}
 muteIcon.onclick = function () {
   toggleAudioMute();
 };
+
+scenarioDescription.onclick = function (){
+  if (!ttsMute){
+    msg.text = scenarioDescription.textContent;
+    window.speechSynthesis.speak(msg);
+  }
+}
 
 scenarioBTN1.onclick = function () {
   try {
@@ -365,7 +379,6 @@ function toggleButtonVisibility() {
   } else if (
     indexStack[indexStack.length - 1] === 0
   ) {
-    console.log("Hello")
     scenarioBTN1.hidden = false;
     scenarioBTN2.hidden = false;
     returnBTN.hidden = true;
@@ -378,13 +391,22 @@ function toggleButtonVisibility() {
   }
 }
 
-function toggleAudioMute() {
-  isMuted = !isMuted;
+function toggleTTSMute() {
+  ttsMute = !ttsMute
+  if (!ttsMute){
+    ttsMuteIcon.src = "icons/tts.png";
+  } else{
+    ttsMuteIcon.src = "icons/ttsMute.png";  
+  }
+}
 
-  if (!isMuted) {
-    muteIcon.src = "images/notMute.png";
+function toggleAudioMute() {
+  muteAudioEffects = !muteAudioEffects;
+
+  if (!muteAudioEffects) {
+    muteIcon.src = "icons/notMute.png";
   } else {
-    muteIcon.src = "images/mute.png";
+    muteIcon.src = "icons/mute.png";
   }
 }
 
@@ -399,7 +421,7 @@ function audioFunction() {
   var page = indexStack[indexStack.length - 1];
 
   try {
-    if (!isMuted) {
+    if (!muteAudioEffects) {
       var aAdudio = new Audio("audio/beep-01a.mp3");
 
       var PoliceSirenAudio = new Audio("audio/policeSiren.wav");
