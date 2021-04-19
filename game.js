@@ -23,7 +23,7 @@ function initialiseScenarios(name = "Alex") {
   scenarios = [
     {
       //scenario: 0
-      src: "./images/bankImage.jpg",
+      src: "images/bankImage.jpg",
       description: "Welcome to the Central Bank. What would you like to do?",
       children: [
         {
