@@ -38,14 +38,14 @@ function initialiseScenarios(name = "Alex") {
     },
     {
       //scenario: 1
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: "You chose to leave and drive away",
       story: "this is an update to the plot",
       children: [],
     },
     {
       //scenario: 2
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: "You've entered the bank. what do you do next?",
       children: [
         {
@@ -60,7 +60,7 @@ function initialiseScenarios(name = "Alex") {
     },
     {
       //scenario: 3
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description:
         "You're holding the cashier at gun point but you hear the faint sound of sirens in the distance. What do you do?",
       children: [
@@ -76,7 +76,7 @@ function initialiseScenarios(name = "Alex") {
     },
     {
       //scenario: 4
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description:
         "You're depositing money but you notice the cashier besdie you is in distress. You notice the customer is holding a gun. What do you do?",
       children: [
@@ -92,7 +92,7 @@ function initialiseScenarios(name = "Alex") {
     },
     {
       //scenario: 5
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: "Do you take the a family hostage or an elderly couple?",
       children: [
         {
@@ -107,7 +107,7 @@ function initialiseScenarios(name = "Alex") {
     },
     {
       //scenario: 6
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: "You make it to the exit. What's you next move?",
       children: [
         {
@@ -122,7 +122,7 @@ function initialiseScenarios(name = "Alex") {
     },
     {
       //scenario: 7
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: `The police arrive... We know it's you
           ${name}. Put your hands in the air! Leave the family alone`,
       children: [
@@ -138,7 +138,7 @@ function initialiseScenarios(name = "Alex") {
     },
     {
       //scenario: 8
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: `The police arrive... We know it's you ${name}. Put your hands in the air! Let the couple go.`,
       children: [
         {
@@ -153,7 +153,7 @@ function initialiseScenarios(name = "Alex") {
     },
     {
       //scenario: 9
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: `Do you phone the police or tackle the robber?`,
       children: [
         {
@@ -168,7 +168,7 @@ function initialiseScenarios(name = "Alex") {
     },
     {
       //scenario: 10
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: `You leave the bank feeling guilty.`,
       children: [
         {
@@ -179,19 +179,19 @@ function initialiseScenarios(name = "Alex") {
     },
     {
       //scenario: 11
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: `Somehow you managed to escape against all odds. you ride off into the sunset`,
       children: [],
     },
     {
       //scenario: 12
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: `You run until you can't keep running. Unfortunately cardio isn't you thing and the cops catch you.`,
       children: [],
     },
     {
       //scenario: 13
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: `you leave with the child and get in a Car and drive away.`,
       children: [
         {
@@ -202,7 +202,7 @@ function initialiseScenarios(name = "Alex") {
     },
     {
       //scenario: 14
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: `You raise your arms in the air.`,
       children: [
         {
@@ -213,7 +213,7 @@ function initialiseScenarios(name = "Alex") {
     },
     {
       //scenario: 15
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: `The elderly man Turns and punches you in the face.`,
       children: [
         {
@@ -224,19 +224,19 @@ function initialiseScenarios(name = "Alex") {
     },
     {
       //scenario: 16
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: `You hear gunshots. Part of you is thankful you weren't there and the other half knows you could've stopped it.`,
       children: [],
     },
     {
       //scenario: 17
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: `The police are on there way.`,
       children: [],
     },
     {
       //scenario: 18
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: `The man was Ready for you.`,
       children: [
         {
@@ -247,7 +247,7 @@ function initialiseScenarios(name = "Alex") {
     },
     {
       //scenario: 19
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: `He pulls the trigger.`,
       children: [
         {
@@ -258,13 +258,13 @@ function initialiseScenarios(name = "Alex") {
     },
     {
       //scenario: 20
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: `You wake up in your room, no gun shot wounds. you realise it was all a vivid dream.`,
       children: [],
     },
     {
       //scenario: 21
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: `You weren't followed.`,
       children: [
         {
@@ -275,13 +275,13 @@ function initialiseScenarios(name = "Alex") {
     },
     {
       //scenario: 22
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: `You leave the hostage at a bus stop and drive off with your prize`,
       children: [],
     },
     {
       //scenario: 23
-      src: "./images/motorway.jpg",
+      src: "images/motorway.jpg",
       description: `You're taken into the police holding cell to await trial.`,
       children: [],
     },
@@ -382,9 +382,9 @@ function toggleAudioMute() {
   isMuted = !isMuted;
 
   if (!isMuted) {
-    muteIcon.src = "./images/notMute.png";
+    muteIcon.src = "images/notMute.png";
   } else {
-    muteIcon.src = "./images/mute.png";
+    muteIcon.src = "images/mute.png";
   }
 }
 
@@ -400,9 +400,9 @@ function audioFunction() {
 
   try {
     if (!isMuted) {
-      var aAdudio = new Audio("./audio/beep-01a.mp3");
+      var aAdudio = new Audio("audio/beep-01a.mp3");
 
-      var PoliceSirenAudio = new Audio("./audio/policeSiren.wav");
+      var PoliceSirenAudio = new Audio("audio/policeSiren.wav");
 
       if (page === 0) {
         aAdudio.play();
