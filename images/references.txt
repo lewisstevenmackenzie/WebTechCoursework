@@ -1,0 +1,12 @@
+Bankinside.jpg: https://media.istockphoto.com/photos/bank-picture-id173932685?k=6&m=173932685&s=612x612&w=0&h=zc9fN7h8FZhay7Fy4v4g3jwqzutoKjdfDaogGKIMgZ8=
+Barricadeddoor.jpg: https://blog.ansi.org/wp-content/uploads/2017/04/Doors-Locked-Chain.jpg
+Police: https://static.standard.co.uk/s3fs-public/thumbnails/image/2019/09/05/12/gettyimages-1023703890.jpg?width=1200
+Walkaway.jpg: https://www.omozua.com/wp-content/uploads/pexels-photo-104809.jpg
+Sunset.jpg: https://whoopiecookie.files.wordpress.com/2011/08/photo-32.jpg
+Nightmare.jpg: https://cdn-prod.medicalnewstoday.com/content/images/articles/326/326354/a-man-waking-up-at-night-with-a-racing-heart.jpg
+Policevan.jpg: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Hampshire_Police_4692_HY59_EAG.JPG/1200px-Hampshire_Police_4692_HY59_EAG.JPG
+Knockedout.jpg: https://www.clipartkey.com/mpngs/m/14-141941_transparent-person-clip-art-png-cartoon-knocked-out.png
+Gunshot.jpg: https://www.bruker.com/en/applications/detection-and-environmental/forensics/gunshot-residue/_jcr_content/root/herostage/backgroundImageVPS.coreimg.82.1920.jpeg/1603715048194/bopt-cml-detection-gsr-gunshot-residue-analysis-title.jpeg
+Policecell.jpg: https://i2-prod.croydonadvertiser.co.uk/news/croydon-news/article1968622.ece/ALTERNATES/s1200/0_Police-cell-2JPG.jpg
+Newspaper.jpg: https://cdn.britannica.com/w:1100/33/162533-131-28A4DB23/Stack-newspapers-background.jpg
+exit.jfif: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8yqWhIQejuFXYnpEFV874Z_adUBGGsLtjHQ&usqp=CAU
