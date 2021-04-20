@@ -7,5 +7,7 @@ function beginGame() {
 }
 
 beginGameBTN.onclick = function () {
-  beginGame();
+  try {
+    beginGame();
+  } catch (error) {}
 };
