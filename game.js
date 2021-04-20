@@ -231,7 +231,7 @@ function initialiseScenarios(name = "Alex") {
     },
     {
       //scenario: 16
-      src: "images/walkaway.jpg",
+      src: "images/gunshot.jpeg",
       description: `As you turn the corner onto the adjacent street you hear gunshots from the bank. Part of you is thankful you weren't there and the other half knows you could've stopped it. You'll forever question if those deaths are on your hands.`,
       children: [],
     },
@@ -325,9 +325,9 @@ muteIcon.onclick = function () {
   toggleAudioMute();
 };
 
-scenarioImage.onmouseover = function(){
+scenarioImage.onmouseover = function () {
   audioFunction();
-}
+};
 
 scenarioDescription.onclick = function () {
   if (!ttsMute) {
@@ -451,7 +451,7 @@ function audioFunction() {
 
       if (page === 3 || page === 6) {
         PoliceSirenAudio.play();
-      } else if (page === 19) {
+      } else if (page === 19 || page === 16) {
         gunshot.play();
       }
     }
