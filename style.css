@@ -145,6 +145,7 @@ li:nth-child(n + 4) {
 
 .startPageImage {
   margin-bottom: 15px;
+  border-radius: 10px;
   width: 90%;
   max-width: 500px;
 }

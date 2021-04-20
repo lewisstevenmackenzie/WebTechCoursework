@@ -325,6 +325,10 @@ muteIcon.onclick = function () {
   toggleAudioMute();
 };
 
+scenarioImage.onmouseover = function(){
+  audioFunction();
+}
+
 scenarioDescription.onclick = function () {
   if (!ttsMute) {
     ttsmsg.text = scenarioDescription.textContent;
