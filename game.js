@@ -97,7 +97,7 @@ function initialiseScenarios(name = "Alex") {
     //scenario: 5
     new Scenario(
       "images/blockedDoor.jpg",
-      "you've managed to barricade the entrance but that won't stop the police. You've decided to take a hostage as well. Who will you capture? The family or the elderly couple?",
+      "You've managed to barricade the entrance but that won't stop the police. You've decided to take a hostage as well. Who will you capture? The family or the elderly couple?",
       "",
       [new ScenarioChild(7, "Family"), new ScenarioChild(8, "Elderly Couple")]
     ),
