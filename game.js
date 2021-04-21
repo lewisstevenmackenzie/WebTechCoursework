@@ -386,7 +386,7 @@ function backPage() {
 function audioFunction() {
   var pageAudio = scenarios[indexStack[indexStack.length - 1]].audio;
 
-  if (pageAudio != "") {
+  if (pageAudio != "" && !muteAudioEffects) {
     var curAudio = new Audio(pageAudio);
     curAudio.play();
   }
