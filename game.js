@@ -70,7 +70,7 @@ function initialiseScenarios(name = "Alex") {
     //scenario: 2
     new Scenario(
       "images/bankinside.jpg",
-      "You've entered the bank. It's a large open room with multiple cashier desks. On the left is a family opening up their sons first account. On the right, an elderly couple. Now you must decide whether to rob the bank or carry on as normal?",
+      "You've entered the bank. It's a large open room with multiple cashier desks. On the left is a family opening up their son's first account. On the right, an elderly couple. Now you must decide whether to rob the bank or carry on as normal?",
       "",
       [
         new ScenarioChild(3, "Rob the bank"),
@@ -114,7 +114,7 @@ function initialiseScenarios(name = "Alex") {
     //scenario: 7
     new Scenario(
       "images/police.jpg",
-      `The police arrive... They knock down the door with battering rams. You're taking refuge in a back room with you hostage. You hear them yell "We know it's you ${name}! This is the last bank you'll ever rob. Put your hands in the air and turn yourself in! Do not harm the family and we will not shoot."`,
+      `The police arrive... They knock down the door with battering rams. You're taking refuge in a back room with your hostages. You hear them yell "We know it's you ${name}! This is the last bank you'll ever rob. Put your hands in the air and turn yourself in! Do not harm the family and we will not shoot."`,
       "",
       [
         new ScenarioChild(
@@ -127,7 +127,7 @@ function initialiseScenarios(name = "Alex") {
     //scenario: 8
     new Scenario(
       "images/police.jpg",
-      `The police arrive... They knock down the door with battering rams. You're taking refuge in a back room with you hostage. You hear them yell "We know it's you ${name}! This is the last bank you'll ever rob. Put your hands in the air and turn yourself in! Do not harm the couple and we will not shoot."`,
+      `The police arrive... They knock down the door with battering rams. You're taking refuge in a back room with your hostages. You hear them yell "We know it's you ${name}! This is the last bank you'll ever rob. Put your hands in the air and turn yourself in! Do not harm the couple and we will not shoot."`,
       "",
       [new ScenarioChild(15, "say NO!"), new ScenarioChild(14, "Accept Defeat")]
     ),
